@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#098587"
+    tools:context="com.example.saumya.myapplication.Fragments.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textSize="35sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:id="@+id/one"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Click ME"
+        android:textSize="35sp"
+        android:id="@+id/Clickme"/>
+
+</FrameLayout>
